@@ -64,6 +64,6 @@ public class Book {
     }
 
     public String displayBookDetails() {
-        return ISBN_No + " " + title + " " + price + " " + author;
+        return ISBN_No + " " + description + " " + title + " " + price + " " + author;
     }
 }
