@@ -5,4 +5,8 @@
  */
 
 public class Book {
+    String ISBN_No;
+    String title;
+    String description;
+    double price;
 }
