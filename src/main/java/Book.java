@@ -9,4 +9,14 @@ public class Book {
     String title;
     String description;
     double price;
+
+    public Book() {
+    }
+
+    public Book(String ISBN_No, String title, String description, double price) {
+        this.ISBN_No = ISBN_No;
+        this.title = title;
+        this.description = description;
+        this.price = price;
+    }
 }
